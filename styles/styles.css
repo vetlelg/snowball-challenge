@@ -1,4 +1,65 @@
-div {
-    width: 400px;
-    height: 700px;
+/* General styles */
+* {
+    box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0; /* Removes the margin around the entire webpage */
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: black 1px solid;
+    z-index: 1;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Front page header */
+.front-page-header {
+    text-align: center;
+    padding-top: 40vh;
+    height: 100vh;
+    background-image: url("../images/sahara.jpg");
+}
+
+.header-container {
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px black solid;
+}
+
+
