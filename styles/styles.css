@@ -3,7 +3,15 @@
     box-sizing: border-box;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0; /* Removes the margin around the entire webpage */
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 
@@ -16,7 +24,7 @@ nav {
     border-bottom: black 1px solid;
     z-index: 1;
 }
-ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -26,27 +34,23 @@ nav li {
     padding: 10px;
     position: relative;
 }
-nav a {
-    color: black;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
 
 
 /* Front page header */
-.front-page-header {
+.front-page {
     text-align: center;
     padding-top: 40vh;
     height: 100vh;
     background-image: url("../images/sahara.jpg");
+    border-bottom: black 1px solid;
 }
-.header-container {
-    padding: 10px 0;
-    background-color: rgba(255, 255, 255, 0.5);
+.front-page h1 {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding: 20px;
+    background-color: white;
 }
-
+  
 
 /* Footer */
 footer {
