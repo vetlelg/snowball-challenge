@@ -2,14 +2,9 @@
 * {
     box-sizing: border-box;
 }
-html {
-    height: 100%;
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; /* Removes the margin around the entire webpage */
-    min-height: 100vh;
-    position: relative;
 }
 a {
     text-decoration: none;
@@ -18,6 +13,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 /* Navigation bar */
 nav {
@@ -39,6 +35,7 @@ nav li {
     position: relative;
 }
 
+
 /* Front page header */
 .front-page {
     text-align: center;
@@ -53,11 +50,10 @@ nav li {
     padding: 20px;
     background-color: white;
 }
+  
 
 /* Footer */
 footer {
-    bottom: 0;
-    position: absolute;
     width: 100%;
     padding: 10px;
     background-color: white;
