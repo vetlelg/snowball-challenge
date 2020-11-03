@@ -79,7 +79,6 @@ nav a:hover {
     border-bottom: #526E2A 2px solid;
 }
 .front-page h1 {
-    color: #526E2A;
     border-top: 2px #526E2A solid;
     border-bottom: 2px #526E2A solid;
     padding: 20px;
@@ -88,34 +87,24 @@ nav a:hover {
 
 
 /* main */
-
-
 section {
     padding-top: 100px;
     margin-top: -100px;
 }
-
-h1 {
-    color: #526E2A;
+section img {
+    width: 100%;
 }
-
-.kaktus {
-    display: flex;
-}
-
-.pic {
-    display: flex;
-}
-
-.pic img {
-    width: 400px;
+main {
+    width: 90vw;
     margin: auto;
-    border-radius: 5px;
 }
-
-.kaktus img {
-    margin: auto;
-    border-radius: 5px;
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.image-container img {
+    width: 30%;
 }
 
 .sources {
