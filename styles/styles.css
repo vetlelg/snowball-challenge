@@ -145,5 +145,10 @@ footer {
     .image-container {
         flex-wrap: wrap;
     }
+    section {
+        padding-top: 70px;
+        margin-top: -70px;
+    }
+    
 
 }
