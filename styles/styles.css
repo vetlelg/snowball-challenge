@@ -1,15 +1,93 @@
-h1 {
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #5ac18e;
-    margin-left: 40px;
+    margin: 0; /* Removes the margin around the entire webpage */
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+
+
+/* Navigation bar */
+.navigation {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: #526E2A 2px solid;
+    z-index: 1;
+}
+nav {
+    float: right;
+}
+.logo {
+    margin-top: 7px;
+    float: left;
+    background-color: #526E2A;
+}
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.logo span {
+    padding: 20px;
+    float: right;
+}
+.logo img {
+    padding: 10px 0 10px 10px;
+    float: left;
+}
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li {
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 
+
+
+/* Front page header */
+.front-page {
+    text-align: center;
+    padding-top: 40vh;
+    height: 100vh;
+    background-image: url("../images/saharadesert.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: #526E2A 2px solid;
+}
+.front-page h1 {
+    color: #526E2A;
+    border-top: 2px #526E2A solid;
+    border-bottom: 2px #526E2A solid;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* main */
 .kaktus {
     display: flex;
 }
@@ -29,3 +107,11 @@ p {
     border-radius: 5px;
 }
 
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-top: 2px #526E2A solid;
+}
