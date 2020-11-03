@@ -1,4 +1,31 @@
-div {
-    width: 400px;
-    height: 700px;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5ac18e;
+    margin-left: 40px;
 }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.kaktus {
+    display: flex;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic img {
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.kaktus img {
+    margin: auto;
+    border-radius: 5px;
+}
+
