@@ -106,7 +106,7 @@ main {
     justify-content: space-between;
 }
 .image-container img {
-    width: 30%;
+    padding: 5px;
 }
 
 .sources {
@@ -125,4 +125,28 @@ footer {
 
 /* Responsive design */
 @media only screen and (max-width: 600px) {
+    .navigation {
+        padding: 0;
+        background-color: #526E2A;
+    }
+    .navigation a {
+        color: white;
+        font-weight: bold;
+    }
+    .navigation li {
+        padding: 23px;
+    }
+    .logo {
+        margin: 0;
+    }
+    .logo span {
+        display: none;
+    }
+    .image-container {
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        padding: 1px;
+    }
+
 }
