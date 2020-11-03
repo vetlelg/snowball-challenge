@@ -87,6 +87,27 @@ nav a:hover {
 }
 
 
+/* main */
+.kaktus {
+    display: flex;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic img {
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.kaktus img {
+    margin: auto;
+    border-radius: 5px;
+}
+
+
 /* Footer */
 footer {
     width: 100%;
@@ -94,5 +115,3 @@ footer {
     background-color: white;
     border-top: 2px #526E2A solid;
 }
-
-
