@@ -15,7 +15,6 @@ a:hover {
 }
 
 
-
 /* Navigation bar */
 .navigation {
     padding: 10px;
@@ -94,6 +93,10 @@ section {
 section img {
     width: 100%;
 }
+section h1 {
+    padding-top: 20px;
+    border-top: #526E2A solid 2px;
+}
 main {
     width: 90vw;
     margin: auto;
@@ -101,7 +104,6 @@ main {
 .image-container {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
 }
 .image-container img {
     width: 30%;
@@ -118,4 +120,9 @@ footer {
     padding: 10px;
     background-color: white;
     border-top: 2px #526E2A solid;
+}
+
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
 }
