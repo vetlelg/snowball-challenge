@@ -106,7 +106,7 @@ main {
     justify-content: space-between;
 }
 .image-container img {
-    padding: 5px;
+    padding: 1px;
 }
 
 .sources {
@@ -144,9 +144,6 @@ footer {
     }
     .image-container {
         flex-wrap: wrap;
-    }
-    .image-container img {
-        padding: 1px;
     }
 
 }
