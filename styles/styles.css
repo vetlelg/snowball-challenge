@@ -114,17 +114,6 @@ main {
     margin-top: 10px;
 }
 
-.about a {
-    display: inline;
-    float: right; 
-}
-
-.about p {
-    display: inline;
-    float: left;
-    width: 50%;
-}
-
 
 /* Footer */
 footer {
@@ -136,20 +125,14 @@ footer {
 }
 
 footer div {
-     
     width: 30%;
-    display: inline-block;
     margin: auto;
-       
     text-align: center;
 }
 
 footer img {
-    border-radius: 50%;
-    width: 20%;
-    display: block;
-    margin: auto;
-    
+    width: 30%;
+    border-radius: 5%;
 }
 
 
