@@ -145,9 +145,10 @@ footer img {
     .navigation a {
         color: white;
         font-weight: bold;
+        font-size: 12px;
     }
     .navigation li {
-        padding: 23px;
+        padding: 23px 5px;
     }
     .logo {
         margin: 0;
@@ -164,6 +165,9 @@ footer img {
     section {
         padding-top: 70px;
         margin-top: -70px;
+    }
+    footer {
+        font-size: 10px;
     }
     
 
