@@ -114,14 +114,14 @@ main {
     margin-top: 10px;
 }
 
-.about a {
-    display: inline;
-    float: right; 
+.hunger {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3%;
 }
-
-.about p {
-    display: inline;
-    float: left;
+.hunger p {
+    margin: 0;
     width: 50%;
 }
 
