@@ -114,6 +114,17 @@ main {
     margin-top: 10px;
 }
 
+.about a {
+    display: inline;
+    float: right; 
+}
+
+.about p {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
 
 /* Footer */
 footer {
