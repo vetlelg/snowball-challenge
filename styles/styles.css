@@ -132,6 +132,24 @@ footer {
     padding: 10px;
     background-color: white;
     border-top: 2px #526E2A solid;
+    display: flex;
+}
+
+footer div {
+     
+    width: 30%;
+    display: inline-block;
+    margin: auto;
+       
+    text-align: center;
+}
+
+footer img {
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin: auto;
+    
 }
 
 
