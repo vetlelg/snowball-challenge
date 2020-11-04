@@ -145,10 +145,10 @@ footer img {
     .navigation a {
         color: white;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
     }
     .navigation li {
-        padding: 23px 10px;
+        padding: 23px 20px 23px 0;
     }
     .logo {
         margin: 0;
